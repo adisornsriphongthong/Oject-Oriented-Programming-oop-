@@ -1,14 +1,17 @@
 public class Student{
+    //instance
     private String name;
     private int age;
     private char grade;
 
+    //constructor
     Student(String name, int age, char grade){
         setName(name);
         setAge(age);
         setGrade(grade);
     }
 
+    //mutator
     public void setName(String name){
         this.name = name;
     }
@@ -19,6 +22,7 @@ public class Student{
         this.grade = grade;
     }
 
+    //accessor
     public String getName(){
         return name;
     }
